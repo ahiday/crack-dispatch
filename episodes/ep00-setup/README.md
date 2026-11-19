@@ -6,14 +6,7 @@
 Nothing that runs yet. This episode is the foundation for CrackDispatch, a pothole reporting and repair-crew tracking app I'm building on AWS one episode at a time. I confirmed my account plan and credits, verified MFA on both the root user and my IAM admin user, reviewed my budget alert, explored CloudTrail Event history, and created this repo.
 
 ## Architecture
-```
-Me (IAM admin user + MFA)
-      │  signs in to
-      ▼
-AWS account (us-east-1)
-      ├──► Billing & Cost Management: plan, credits, budget alert
-      └──► CloudTrail Event history: 90-day log of account activity
-```
+
 
 ```mermaid
 flowchart TD
